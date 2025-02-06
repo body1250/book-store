@@ -1,0 +1,55 @@
+body {
+    font-size: 120%;
+}
+
+table{
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+table td{
+    padding: 5px;
+}
+
+table td , th{
+    border: 2px solid black;
+}
+
+button { 
+    padding: 10px 15px;
+    margin: 5px;
+
+}
+
+.theOwner{
+    margin-bottom: 5px;
+}
+.hide{
+    display: none;
+}
+.buttons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.active{
+    background-color:#bababad9 ;
+}
+
+.inputs{
+    margin-top: 20px;
+    text-align: center;
+}
+input{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+#details {
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+}

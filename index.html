@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>body1250 BookStore</title>
+  </head>
+  <body>
+    <h1>body1250 bookstore</h1>
+<div class="buttons">
+  <button id="user" class="active">
+    User
+  </button>
+  
+  <button id="owner">
+    Owner
+  </button>
+</div>
+
+    <table>
+      <!-- bookT, Author, price, quantity -->
+      <thead>
+        <th>ID</th>
+        <th>Book title</th>
+        <th>The Author</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </thead>
+      <tbody class="Tbody"></tbody>
+    </table>
+    <p id="details"></p>
+
+    <div id="theUserD" class="">
+      <h3>The User</h3>
+      
+      <div class="showId">
+        <button type="button" id="showID" class="showID">Show Details (by id)</button>
+      </div>
+      
+      <div class="showA">
+        <button type="button" id="showA" class="showA">
+          Show Details (by id / athour / book title)
+        </button>
+      </div>
+      
+      <div class="buy">
+        <button type="button" id="buy" class="buy">Buy a Book</button>
+      </div>
+      
+      <div class="inputs">
+        <h3>To inquire about books</h3>
+        <input type="text" id="showIDInput" placeholder="The ID of the book">
+        <input type="text" id="showAInput" placeholder="ID or athor or book title">
+        
+        <h3>To buy a book</h3>
+        <input type="text" id="yourMoneyInput" placeholder="Your money">
+        <input type="text" id="theNameInput" placeholder="The name of the book" >
+        <input type="text" id="quantityInput" placeholder="The quantity of the books">
+        
+      </div>
+    </div>
+
+
+    <div id="theOwnerD" class="hide" >
+      <h3>The Owner</h3>
+      <div class="add">
+        <button type="button" id="add" class="add">Add a Book</button>
+      </div>
+      
+      <div class="mody">
+        <button type="button" id="modi" class="modi">Modify a Book</button>
+      </div>
+      
+      <div class="delet">
+        <button type="button" id="delet" class="delet">Delet a Book</button>
+      </div>
+      
+      <div class="inputs">
+        <input type="text" id="IDInput" placeholder="Enter the ID">
+        <input type="text" id="bookTitleInput"  placeholder="Enter the book title" >
+        <input type="text" id="athorIput" placeholder="Enter the athor">
+        <input type="text" id="priceInput" placeholder="Enter the price">
+        <input type="text" id="QuantityInput" placeholder="Enter the quantity of the book">  
+      </div>
+    </div>
+  </body>
+  <script src="bookstore.js"></script>
+</html>
