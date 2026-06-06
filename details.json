@@ -1,0 +1,7 @@
+{
+  "description": "add and delete books from the store if you are owner and buy and show details about the book if you are the owner of the store !",
+  "alt": "table and some buttons photo",
+  "liveLink": "https://body1250.github.io/book-store/",
+  "skills": ["HTML", "CSS", "JavaScript"],
+  "isImportant": false
+}
